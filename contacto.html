@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/646273295a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./bootstrap4/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    
+    <title>Fanaticos de Hermetica</title>
+  </head>
+  <body>
+    <div class="padre">
+      <header class="header">
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html">Fans Club Hermetica </a>
+          </div>
+          <nav class="nav">
+            <a href="./index.html"
+              ><i class="fa fa-home" aria-hidden="true"></i
+              ><span class="off">Inicio</span></a
+            >
+            <a href="./integrantes.html"
+              ><i class="fa fa-user" aria-hidden="true"></i
+              ><span class="off">Integrantes</span></a
+            >
+            <a href="#"
+              ><i class="fa fa-envelope" aria-hidden="true"></i
+              ><span class="off">Contacto</span></a
+            >
+          </nav>
+          <div class="social">
+            <div>
+              <a href="#"
+                ><i class="fa fa-facebook-square" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div>
+              <a href="#"
+                ><i class="fa fa-twitter-square" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <form action="" id="formulario">
+            <p>Formulario de Contacto</p>
+
+            <label for="nombre">Nombre:</label>
+            <input class="form-control" id="nombre" type="text" name="nombre" />
+
+            <label for="email">Email:</label>
+            <input class="form-control" id="email" type="text" name="email" />
+
+            <label for="mensaje">Mensaje:</label>
+            <br><textarea
+              name="mensaje"
+              id="mensaje"
+              class="form-control"
+              rows="5"
+            ></textarea>
+
+            <br /><br />
+            <div id="mostarerror"></div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+          <script src="./acciones.js"></script>
+        </div>
+      </main>
+      
+      <footer class="footer">
+        <nav class="pie">
+          <a href="#">Desarrollado por Gaston Bruzzo</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
